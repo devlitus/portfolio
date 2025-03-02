@@ -1,48 +1,45 @@
-# Astro Starter Kit: Basics
+# Portfolio Web
 
-```sh
-npm create astro@latest -- --template basics
+Bienvenido a mi Portfolio Web, la vitrina de mis proyectos y habilidades. Este sitio está desarrollado con Astro y TailwindCSS, y destaca por su diseño moderno, adaptable y optimizado.
+
+## Características Destacadas
+
+- 🚀 Arranque rápido con Astro para un rendimiento superior  
+- 🎨 Estilos modernos y personalizados con TailwindCSS  
+- 🌓 Soporte para modo oscuro  
+- 📱 Diseño responsivo para todos los dispositivos  
+- 💬 Formulario de contacto intuitivo  
+- 🔍 Optimización SEO para mayor visibilidad
+
+## Requisitos
+
+- Node.js (v16 o superior)
+- npm o yarn
+
+## Instalación
+
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tuusuario/portfolio.git
+    ```
+2. Instala las dependencias:
+    ```bash
+    cd portfolio
+    npm install
+    ```
+3. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+Abre tu navegador en `http://localhost:3000` para visualizar el sitio.
+
+## Producción
+
+Genera una versión optimizada para producción:
+```bash
+npm run build
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Licencia
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Distribuido bajo la Licencia MIT.
