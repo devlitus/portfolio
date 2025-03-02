@@ -10,7 +10,7 @@ import { Image } from "astro:assets";
 import backgroundSvg from "../assets/background.svg";
 ---
 
-<section id="home" class="relative min-h-screen flex items-center pt-16">
+<section id="home" class="relative min-h-[calc(100vh-4rem)] flex items-center pt-16 px-4">
   <div class="absolute inset-0 -z-10 overflow-hidden">
     <Image
       src={backgroundSvg}
@@ -20,13 +20,13 @@ import backgroundSvg from "../assets/background.svg";
   </div>
 
   <div class="container">
-    <div class="max-w-3xl">
+    <div class="max-w-3xl mx-auto">
       <span
         class="inline-block py-1 px-3 rounded-full bg-purple-100 text-purple-800 text-sm font-medium mb-4 dark:bg-purple-900 dark:text-purple-200"
       >
         Desarrollador Frontend
       </span>
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">
         Hola, soy <span class="gradient-text">{name}</span>
       </h1>
       <h2
@@ -39,7 +39,7 @@ import backgroundSvg from "../assets/background.svg";
       >
         {description}
       </p>
-      <div class="flex flex-wrap gap-4">
+      <div class="flex flex-col sm:flex-row gap-4">
         <a
           href="#projects"
           class="px-6 py-3 bg-purple-600 text-white rounded-lg font-medium transition-all hover:bg-purple-700 focus:ring-4 focus:ring-purple-300"
